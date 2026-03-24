@@ -33,7 +33,7 @@ Through multiple tasks, we investigate HTTP requests, FTP traffic, and system pr
 **Answer:** `data`
 
 📸 Evidence:
-![Image 2](images/image-2.png)
+![Image 2](images/image2.png)
 
 ---
 
@@ -43,7 +43,7 @@ Through multiple tasks, we investigate HTTP requests, FTP traffic, and system pr
 **Answer:** `Yes`
 
 📸 Evidence:
-![Image 3](images/image-3.png)
+![Image 3](images/image3.png)
 
 ---
 
@@ -53,7 +53,7 @@ Through multiple tasks, we investigate HTTP requests, FTP traffic, and system pr
 **Answer:** `0`
 
 📸 Evidence:
-![Image 4](images/image-4.png)
+![Image 4](images/image4.png)
 
 ---
 
@@ -69,7 +69,7 @@ Through multiple tasks, we investigate HTTP requests, FTP traffic, and system pr
 **Answer:** `FTP`
 
 📸 Evidence:
-![Image 5](images/image-5.png)
+![Image 5](images/image5.png)
 
 ---
 
@@ -79,7 +79,7 @@ Through multiple tasks, we investigate HTTP requests, FTP traffic, and system pr
 **Answer:** `ssh`
 
 📸 Evidence:
-![Image 6](images/image-6.png)
+![Image 6](images/image6.png)
 
 ---
 
@@ -89,13 +89,13 @@ Through multiple tasks, we investigate HTTP requests, FTP traffic, and system pr
 **Answer:** `/usr/bin/python3.8`
 
 📸 Evidence:
-![Image 8](images/image-8.png)
+![Image 8](images/image8.png)
 
 ---
 
 ### ❓ Image 9
 📸 Evidence:
-![Image 9](images/image-9.png)
+![Image 9](images/image9.png)
 
 > ⚠️ Final answer missing — needs verification from screenshot
 
