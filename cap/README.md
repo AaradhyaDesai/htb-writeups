@@ -1,4 +1,3 @@
-# HTB Cap Writeup
 # Cap - Network Traffic Analysis (CTF Writeup)
 
 ## 🧠 Overview
@@ -24,41 +23,41 @@ Through multiple tasks, we investigate HTTP requests, FTP traffic, and system pr
 
 ---
 
-## 🔍 Task Breakdown
+## 🔍 Image Breakdown
 
 ---
 
-### ✅ Task 2
+### ✅ Image 2
 **Question:** What is the data returned from the endpoint?
 
 **Answer:** `data`
 
 📸 Evidence:
-![Task 2](images/task-2.png)
+![Image 2](images/image-2.png)
 
 ---
 
-### ✅ Task 3
+### ✅ Image 3
 **Question:** Is the endpoint vulnerable?
 
 **Answer:** `Yes`
 
 📸 Evidence:
-![Task 3](images/task-3.png)
+![Image 3](images/image-3.png)
 
 ---
 
-### ✅ Task 4
+### ✅ Image 4
 **Question:** What ID returns valid data?
 
 **Answer:** `0`
 
 📸 Evidence:
-![Task 4](images/task-4.png)
+![Image 4](images/image-4.png)
 
 ---
 
-### ✅ Task 5
+### ✅ Image 5
 **Question:** What protocol is being used to transfer sensitive data?
 
 **Approach:**
@@ -70,33 +69,33 @@ Through multiple tasks, we investigate HTTP requests, FTP traffic, and system pr
 **Answer:** `FTP`
 
 📸 Evidence:
-![Task 5](images/task-5.png)
+![Image 5](images/image-5.png)
 
 ---
 
-### ✅ Task 6
+### ✅ Image 6
 **Question:** Which service is exposed?
 
 **Answer:** `ssh`
 
 📸 Evidence:
-![Task 6](images/task-6.png)
+![Image 6](images/image-6.png)
 
 ---
 
-### ✅ Task 8
+### ✅ Image 8
 **Question:** What binary is used?
 
 **Answer:** `/usr/bin/python3.8`
 
 📸 Evidence:
-![Task 8](images/task-8.png)
+![Image 8](images/image-8.png)
 
 ---
 
-### ❓ Task 9
+### ❓ Image 9
 📸 Evidence:
-![Task 9](images/task-9.png)
+![Image 9](images/image-9.png)
 
 > ⚠️ Final answer missing — needs verification from screenshot
 
