@@ -1,27 +1,10 @@
 # Cap - Network Traffic Analysis (CTF Writeup)
 
-##Summary of the hack available on Mediuam:** https://medium.com/@aaradhyadesai/hack-the-box-cap-writeup-exploiting-idor-to-gain-ssh-access-full-walkthrough-d31f849b9012
+## Summary of the hack available on Medium:
+https://medium.com/@aaradhyadesai/hack-the-box-cap-writeup-exploiting-idor-to-gain-ssh-access-full-walkthrough-d31f849b9012
 
 ##  Overview
-This challenge focuses on analyzing network traffic captures to identify sensitive information exposure, insecure services, and potential vulnerabilities.
-
-Through multiple tasks, we investigate HTTP requests, FTP traffic, and system processes to extract meaningful insights from captured data.
-
----
-
-##  Objectives
-- Analyze captured network traffic
-- Identify sensitive data exposure
-- Investigate insecure protocols (FTP, HTTP)
-- Extract hidden information from PCAP files
-
----
-
-##  Tools Used
-- Wireshark
-- tcpdump
-- Browser DevTools
-- FTP stream analysis
+This challenge focuses on analyzing network traffic captures to identify sensitive information exposure, insecure services, and potential vulnerabilities. Through multiple tasks, we investigate HTTP requests, FTP traffic, and system processes to extract meaningful insights from captured data.
 
 ---
 **Question 1:** How many TCP ports are open?
@@ -31,6 +14,7 @@ Through multiple tasks, we investigate HTTP requests, FTP traffic, and system pr
 
 ![Image_1](images/image1.png)
 
+Here we perform a simple nmap scan "nmap -sC -sV <target-ip>"
 ---
 
 **Question 2:** After running a "Security Snapshot", the browser is redirected to a path of the format /[something]/[id], where [id] represents the id number of the scan. What is the [something]?
@@ -44,6 +28,8 @@ Through multiple tasks, we investigate HTTP requests, FTP traffic, and system pr
 
 ![Image 2](images/image4.png)
 
+For this, you need to explode the dashboard, on the options bar at the right corner, you can see an option for sensitive packet cap. Access that to solve this puzzle.
+
 ---
 
 **Question 3:** Are you able to get to other users' scans?
@@ -52,6 +38,8 @@ Through multiple tasks, we investigate HTTP requests, FTP traffic, and system pr
 
  
 ![Image 3](images/image5.png)
+
+When you change the `id` you can see the user changes. 
 
 ---
 
@@ -62,6 +50,9 @@ Through multiple tasks, we investigate HTTP requests, FTP traffic, and system pr
 
  
 ![Image 4](images/image6.png)
+
+
+This part was challenging. It took me a while to figure out that an ID can also be 0. When I tried that, I got better results than other user ids'. 
 
 ---
 
