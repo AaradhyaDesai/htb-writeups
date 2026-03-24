@@ -1,13 +1,13 @@
 # Cap - Network Traffic Analysis (CTF Writeup)
 
-## 🧠 Overview
+##  Overview
 This challenge focuses on analyzing network traffic captures to identify sensitive information exposure, insecure services, and potential vulnerabilities.
 
 Through multiple tasks, we investigate HTTP requests, FTP traffic, and system processes to extract meaningful insights from captured data.
 
 ---
 
-## 🎯 Objectives
+##  Objectives
 - Analyze captured network traffic
 - Identify sensitive data exposure
 - Investigate insecure protocols (FTP, HTTP)
@@ -15,50 +15,54 @@ Through multiple tasks, we investigate HTTP requests, FTP traffic, and system pr
 
 ---
 
-## 🛠️ Tools Used
+##  Tools Used
 - Wireshark
 - tcpdump
 - Browser DevTools
 - FTP stream analysis
 
 ---
+**Question 1:** How many TCP ports are open?
 
-## 🔍 Image Breakdown
+**Answer** `3`
+
+Evidance:
+![Image_1](images/image1.png)
 
 ---
 
-### ✅ Image 2
-**Question:** What is the data returned from the endpoint?
+**Question 2:** After running a "Security Snapshot", the browser is redirected to a path of the format /[something]/[id], where [id] represents the id number of the scan. What is the [something]?
 
 **Answer:** `data`
 
-📸 Evidence:
+ Evidence:
 ![Image 2](images/image2.png)
+![Image 2](images/image3.png)
+![Image 2](images/image4.png)
 
 ---
 
-### ✅ Image 3
-**Question:** Is the endpoint vulnerable?
+**Question 3:** Are you able to get to other users' scans?
 
 **Answer:** `Yes`
 
-📸 Evidence:
-![Image 3](images/image3.png)
+ Evidence:
+![Image 3](images/image5.png)
 
 ---
 
-### ✅ Image 4
-**Question:** What ID returns valid data?
+
+**Question 4:**What is the ID of the PCAP file that contains sensative data?
 
 **Answer:** `0`
 
-📸 Evidence:
-![Image 4](images/image4.png)
+ Evidence:
+![Image 4](images/image6.png)
 
 ---
 
-### ✅ Image 5
-**Question:** What protocol is being used to transfer sensitive data?
+
+**Question 5:** Which application layer protocol in the pcap file can the sensetive data be found in?
 
 **Approach:**
 - Downloaded PCAP file using ID = 0
@@ -68,40 +72,55 @@ Through multiple tasks, we investigate HTTP requests, FTP traffic, and system pr
 
 **Answer:** `FTP`
 
-📸 Evidence:
-![Image 5](images/image5.png)
+Evidence:
+![Image 4](images/image7.png)
+![Image 5](images/image8.png)
 
----
+**Question 6:** We've managed to collect nathan's FTP password. On what other service does this password work?
 
-### ✅ Image 6
-**Question:** Which service is exposed?
+We found that ssh is also open when we performed an nmap scan.
+*Password*: Buck3tH4TF0RM3
 
 **Answer:** `ssh`
 
-📸 Evidence:
-![Image 6](images/image6.png)
+ Evidence :
+![Image 5](images/image9.png)
+
 
 ---
 
-### ✅ Image 8
-**Question:** What binary is used?
+
+**Question 7:**Submit the flag located in the nathan user's home directory.
+
+
+
+ Evidence:
+![Image 6](images/image10.png)
+
+---
+
+
+**Question 8:** What is the full path to the binary on this machine has special capabilities that can be abused to obtain root privileges?
 
 **Answer:** `/usr/bin/python3.8`
 
-📸 Evidence:
-![Image 8](images/image8.png)
+ Evidence:
+![Image 8](images/image11.png)
+![Image 8](images/image12.png)
+
+---
+**Question 9:** Submit the flag located in root's home directory.
+
+**Answer:** `a958f3e24723aa273fc02012a1796358`
+
+ Evidence:
+![Image 9](images/image13.png)
+
+> 
 
 ---
 
-### ❓ Image 9
-📸 Evidence:
-![Image 9](images/image9.png)
-
-> ⚠️ Final answer missing — needs verification from screenshot
-
----
-
-## 🚨 Key Findings
+##  Key Findings
 
 - **IDOR Vulnerability**: Changing ID parameter exposes sensitive data
 - **Insecure Protocol Usage**: FTP used for credential transfer (plaintext)
@@ -110,7 +129,7 @@ Through multiple tasks, we investigate HTTP requests, FTP traffic, and system pr
 
 ---
 
-## 📚 Lessons Learned
+##  Lessons Learned
 
 - Always validate access control for API endpoints
 - Avoid using insecure protocols like FTP
@@ -119,12 +138,12 @@ Through multiple tasks, we investigate HTTP requests, FTP traffic, and system pr
 
 ---
 
-## 📌 Conclusion
+##  Conclusion
 
 This challenge demonstrates how improper access control and insecure communication protocols can lead to critical data exposure. By leveraging network traffic analysis, we were able to extract sensitive information and identify multiple security weaknesses.
 
 ---
 
-## 👤 Author
+##  Author
 **Aaradhya Desai**  
 Cybersecurity | Network Security | Offensive Security  
