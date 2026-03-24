@@ -44,7 +44,7 @@ When you change the `id` you can see the user changes.
 ---
 
 
-**Question 4:**What is the ID of the PCAP file that contains sensative data?
+**Question 4:** What is the ID of the PCAP file that contains sensative data?
 
 **Answer:** `0`
 
@@ -85,7 +85,7 @@ We found that ssh is also open when we performed an nmap scan.
 ---
 
 
-**Question 7:**Submit the flag located in the nathan user's home directory.
+**Question 7:** Submit the flag located in the nathan user's home directory.
 
 ![Image 6](images/image11.png)
 
