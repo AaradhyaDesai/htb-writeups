@@ -26,7 +26,7 @@ Through multiple tasks, we investigate HTTP requests, FTP traffic, and system pr
 
 **Answer** `3`
 
-Evidance:
+
 ![Image_1](images/image1.png)
 
 ---
@@ -35,9 +35,11 @@ Evidance:
 
 **Answer:** `data`
 
- Evidence:
+1st
 ![Image 2](images/image2.png)
+2nd
 ![Image 2](images/image3.png)
+3rd
 ![Image 2](images/image4.png)
 
 ---
@@ -46,7 +48,7 @@ Evidance:
 
 **Answer:** `Yes`
 
- Evidence:
+ 
 ![Image 3](images/image5.png)
 
 ---
@@ -56,7 +58,7 @@ Evidance:
 
 **Answer:** `0`
 
- Evidence:
+ 
 ![Image 4](images/image6.png)
 
 ---
@@ -72,7 +74,7 @@ Evidance:
 
 **Answer:** `FTP`
 
-Evidence:
+
 ![Image 4](images/image7.png)
 ![Image 5](images/image8.png)
 
@@ -83,7 +85,7 @@ We found that ssh is also open when we performed an nmap scan.
 
 **Answer:** `ssh`
 
- Evidence :
+ 
 ![Image 5](images/image9.png)
 
 
@@ -92,9 +94,6 @@ We found that ssh is also open when we performed an nmap scan.
 
 **Question 7:**Submit the flag located in the nathan user's home directory.
 
-
-
- Evidence:
 ![Image 6](images/image10.png)
 
 ---
@@ -104,7 +103,6 @@ We found that ssh is also open when we performed an nmap scan.
 
 **Answer:** `/usr/bin/python3.8`
 
- Evidence:
 ![Image 8](images/image11.png)
 ![Image 8](images/image12.png)
 
@@ -113,7 +111,6 @@ We found that ssh is also open when we performed an nmap scan.
 
 **Answer:** `a958f3e24723aa273fc02012a1796358`
 
- Evidence:
 ![Image 9](images/image13.png)
 
 > 
