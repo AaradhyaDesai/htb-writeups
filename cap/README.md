@@ -35,11 +35,11 @@ Through multiple tasks, we investigate HTTP requests, FTP traffic, and system pr
 
 **Answer:** `data`
 
-1st
+
 ![Image 2](images/image2.png)
-2nd
+
 ![Image 2](images/image3.png)
-3rd
+
 ![Image 2](images/image4.png)
 
 ---
@@ -75,8 +75,8 @@ Through multiple tasks, we investigate HTTP requests, FTP traffic, and system pr
 **Answer:** `FTP`
 
 
-![Image 4](images/image7.png)
-![Image 5](images/image8.png)
+
+![Image 5](images/image9.png)
 
 **Question 6:** We've managed to collect nathan's FTP password. On what other service does this password work?
 
@@ -86,7 +86,7 @@ We found that ssh is also open when we performed an nmap scan.
 **Answer:** `ssh`
 
  
-![Image 5](images/image9.png)
+![Image 5](images/image10.png)
 
 
 ---
@@ -94,7 +94,7 @@ We found that ssh is also open when we performed an nmap scan.
 
 **Question 7:**Submit the flag located in the nathan user's home directory.
 
-![Image 6](images/image10.png)
+![Image 6](images/image11.png)
 
 ---
 
@@ -103,15 +103,15 @@ We found that ssh is also open when we performed an nmap scan.
 
 **Answer:** `/usr/bin/python3.8`
 
-![Image 8](images/image11.png)
 ![Image 8](images/image12.png)
+![Image 8](images/image13.png)
 
 ---
 **Question 9:** Submit the flag located in root's home directory.
 
 **Answer:** `a958f3e24723aa273fc02012a1796358`
 
-![Image 9](images/image13.png)
+![Image 9](images/image14.png)
 
 > 
 
