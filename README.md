@@ -15,6 +15,7 @@ Each writeup includes:
 | Machine | Focus Area | Link |
 |--------|-----------|------|
 | Cap | IDOR, PCAP Analysis, SSH Access | [View Writeup](./cap/) |
+| DevArea | SOAP Exploitation, Internal Pivoting, Linus PrivEsc | [View Writeup](./DevArea/) |
 
 ---
 
