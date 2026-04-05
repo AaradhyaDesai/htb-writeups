@@ -1,8 +1,5 @@
 # Cap - Network Traffic Analysis (CTF Writeup)
 
-## Summary of the hack available on Medium:
-https://medium.com/@aaradhyadesai/hack-the-box-cap-writeup-exploiting-idor-to-gain-ssh-access-full-walkthrough-d31f849b9012
-
 ##  Overview
 This challenge focuses on analyzing network traffic captures to identify sensitive information exposure, insecure services, and potential vulnerabilities. Through multiple tasks, we investigate HTTP requests, FTP traffic, and system processes to extract meaningful insights from captured data.
 
