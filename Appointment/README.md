@@ -47,23 +47,22 @@ Recon → Web Login Page → SQL Injection → Auth Bypass → Flag Retrieval
 Access the target IP in the browser.
 
 
-```md
-![Image_1](screenshot/image1.png)
 
-```
+![Step 1](screenshot/image1.png)
 
----
+
+
+
 
 ##  Step 2: Identify Entry Point
 
 The login form is the **primary attack surface**.
 
+![Step_2](screenshot/image2.png)
 
-```md
-![Step 2](./screenshot/image2.png)
-```
 
----
+
+
 
 ##  Step 3: Test for SQL Injection
 
@@ -74,7 +73,7 @@ Try basic payload:
 ```
 
 
-```md
+
 ![Step 3](./screenshot/image3.png)
 ```
 
@@ -94,19 +93,19 @@ admin' --
 
 ```
 (anything or blank)
-```
+``
 
 
-```md
+
 ![Step 4](./screenshot/image4.png)
-```
 
----
+
+
 
 ##  Step 5: Successful Login
 
 
-```md
+``
 ![Step 5](./screenshot/image5.png)
 ```
 
@@ -115,7 +114,7 @@ admin' --
 ##  Step 6: Locate the Flag
 
 
-```md
+```
 ![Step 6](./screenshot/image6.png)
 ```
 
@@ -124,7 +123,7 @@ admin' --
 ##  Step 7: Additional Observations
 
 
-```md
+```
 ![Step 7](./screenshot/image7.png)
 ```
 
@@ -133,7 +132,7 @@ admin' --
 ##  Step 8
 
 
-```md
+```
 ![Step 8](./screenshot/image8.png)
 ```
 
@@ -141,7 +140,7 @@ admin' --
 
 ##  Step 9
 
-```md
+```
 ![Step 9](./screenshot/image9.png)
 ```
 
@@ -150,7 +149,7 @@ admin' --
 ##  Step 10
 
 
-```md
+```
 ![Step 10](./screenshot/image10.png)
 ```
 
@@ -159,7 +158,7 @@ admin' --
 ##  Step 11
 
 
-```md
+```
 ![Step 11](./screenshot/image11.png)
 ```
 
@@ -168,7 +167,7 @@ admin' --
 ##  Step 12
 
 
-```md
+```
 ![Step 12](./screenshot/image12.png)
 ```
 
@@ -178,7 +177,7 @@ admin' --
 
 
 
-```md
+```
 ![Step 13](./screenshot/image13.png)
 ```
 
@@ -187,7 +186,7 @@ admin' --
 ## Final Flag
 
 ```
-
+e3d0796d002a446c0e622226f42e9672
 ```
 
 ---
