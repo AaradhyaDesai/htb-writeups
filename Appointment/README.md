@@ -115,7 +115,7 @@ e3d0796d002a446c0e622226f42e9672
 
 ![Step 12](./screenshot/image12.png)
 
-![Step 13](./screenshot/image.png)
+![Step 13](./screenshot/image13.png)
 
 
 ---
