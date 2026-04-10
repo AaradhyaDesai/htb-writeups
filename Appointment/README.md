@@ -71,9 +71,9 @@ Use payload in login:
 admin' --
 ```
 
-* **Password:**
+- **Password:**
 
-```
+``
 (anything or blank)
 ``
 
