@@ -73,9 +73,9 @@ admin' --
 
 - **Password:**
 
-``
+```
 (anything or blank)
-``
+```
 
 ##  Step 5: Successful Login
 
@@ -88,7 +88,7 @@ admin' --
 
 ```
 e3d0796d002a446c0e622226f42e9672
-``
+```
 ### shots of answers:
 ![Step 1](screenshot/image1.png)
 ![Step_2](screenshot/image2.png)
