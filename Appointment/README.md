@@ -90,19 +90,33 @@ admin' --
 e3d0796d002a446c0e622226f42e9672
 ```
 ### shots of answers:
-![Step 1](screenshot/image1.png)
-![Step_2](screenshot/image2.png)
+
+![Step 1](./screenshot/image1.png)
+
+![Step_2](./screenshot/image2.png)
+
 ![Step 3](./screenshot/image3.png)
+
 ![Step 4](./screenshot/image4.png)
+
 ![Step 5](./screenshot/image5.png)
+
 ![Step 6](./screenshot/image6.png)
+
 ![Step 7](./screenshot/image7.png)
+
 ![Step 8](./screenshot/image8.png)
+
 ![Step 9](./screenshot/image9.png)
+
 ![Step 10](./screenshot/image10.png)
+
 ![Step 11](./screenshot/image11.png)
+
 ![Step 12](./screenshot/image12.png)
+
 ![Step 13](./screenshot/image.png)
+
 
 ---
 
