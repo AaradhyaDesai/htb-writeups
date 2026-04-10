@@ -48,7 +48,8 @@ Access the target IP in the browser.
 
 
 ```md
-![Step 1](./screenshot/image1.png)
+![Image_1](screenshot/image1.png)
+
 ```
 
 ---
