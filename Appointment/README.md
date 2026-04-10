@@ -48,7 +48,7 @@ Access the target IP in the browser.
 
 
 ```md
-![Step 1](./screenshots/image1.png)
+![Step 1](./screenshot/image1.png)
 ```
 
 ---
@@ -59,7 +59,7 @@ The login form is the **primary attack surface**.
 
 
 ```md
-![Step 2](./screenshots/image2.png)
+![Step 2](./screenshot/image2.png)
 ```
 
 ---
@@ -74,7 +74,7 @@ Try basic payload:
 
 
 ```md
-![Step 3](./screenshots/image3.png)
+![Step 3](./screenshot/image3.png)
 ```
 
 ---
@@ -97,7 +97,7 @@ admin' --
 
 
 ```md
-![Step 4](./screenshots/image4.png)
+![Step 4](./screenshot/image4.png)
 ```
 
 ---
@@ -106,7 +106,7 @@ admin' --
 
 
 ```md
-![Step 5](./screenshots/image5.png)
+![Step 5](./screenshot/image5.png)
 ```
 
 ---
@@ -115,7 +115,7 @@ admin' --
 
 
 ```md
-![Step 6](./screenshots/image6.png)
+![Step 6](./screenshot/image6.png)
 ```
 
 ---
@@ -124,7 +124,7 @@ admin' --
 
 
 ```md
-![Step 7](./screenshots/image7.png)
+![Step 7](./screenshot/image7.png)
 ```
 
 ---
@@ -133,7 +133,7 @@ admin' --
 
 
 ```md
-![Step 8](./screenshots/image8.png)
+![Step 8](./screenshot/image8.png)
 ```
 
 ---
@@ -141,7 +141,7 @@ admin' --
 ##  Step 9
 
 ```md
-![Step 9](./screenshots/image9.png)
+![Step 9](./screenshot/image9.png)
 ```
 
 ---
@@ -150,7 +150,7 @@ admin' --
 
 
 ```md
-![Step 10](./screenshots/image10.png)
+![Step 10](./screenshot/image10.png)
 ```
 
 ---
@@ -159,7 +159,7 @@ admin' --
 
 
 ```md
-![Step 11](./screenshots/image11.png)
+![Step 11](./screenshot/image11.png)
 ```
 
 ---
@@ -168,7 +168,7 @@ admin' --
 
 
 ```md
-![Step 12](./screenshots/image12.png)
+![Step 12](./screenshot/image12.png)
 ```
 
 ---
@@ -178,7 +178,7 @@ admin' --
 
 
 ```md
-![Step 13](./screenshots/image13.png)
+![Step 13](./screenshot/image13.png)
 ```
 
 ---
