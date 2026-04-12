@@ -120,7 +120,7 @@ e3d0796d002a446c0e622226f42e9672
 
 ---
 
-# 🔑 Key Findings
+#  Key Findings
 
 * Login form vulnerable to **SQL Injection**
 * No input sanitization
@@ -128,7 +128,7 @@ e3d0796d002a446c0e622226f42e9672
 
 ---
 
-# 📚 Lessons Learned
+#  Lessons Learned
 
 * Always sanitize user input
 * Use prepared statements
@@ -136,7 +136,7 @@ e3d0796d002a446c0e622226f42e9672
 
 ---
 
-# 🏁 Conclusion
+#  Conclusion
 
 A simple SQL injection payload:
 
