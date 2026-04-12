@@ -16,6 +16,7 @@ Each writeup includes:
 |--------|-----------|------|
 | Cap | IDOR, PCAP Analysis, SSH Access | [View Writeup](./cap/) |
 | DevArea | SOAP Exploitation, Internal Pivoting, Linus PrivEsc | [View Writeup](./DevArea/) |
+| Appointment | SQL injections, input validation, Privilege Escalation | [View_Writeup](./Appointment)
 
 ---
 
