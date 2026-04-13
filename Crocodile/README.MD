@@ -147,41 +147,41 @@ After login:
 
 ## Screenshots
 
-![Step 1](./screenshot/screenshot_16.jpeg)
+![Step 1](./screenshots/screenshot_16.jpeg)
 
-![Step 2](./screenshot/screenshot_12.jpeg)
+![Step 2](./screenshots/screenshot_12.jpeg)
 
-![Step 3](./screenshot/screenshot_10.jpeg)
+![Step 3](./screenshots/screenshot_10.jpeg)
 
-![Step 4](./screenshot/screenshot_5.jpeg)
+![Step 4](./screenshots/screenshot_5.jpeg)
 
-![Step 5](./screenshot/screenshot_1.jpeg)
+![Step 5](./screenshots/screenshot_1.jpeg)
 
-![Step 6](./screenshot/screenshot_17.jpeg)
+![Step 6](./screenshots/screenshot_17.jpeg)
 
-![Step 7](./screenshot/screenshot_14.jpeg)
+![Step 7](./screenshots/screenshot_14.jpeg)
 
-![Step 8](./screenshot/screenshot_11.jpeg)
+![Step 8](./screenshots/screenshot_11.jpeg)
 
-![Step 9](./screenshot/screenshot_6.jpeg)
+![Step 9](./screenshots/screenshot_6.jpeg)
 
-![Step 10](./screenshot/screenshot_2.jpeg)
+![Step 10](./screenshots/screenshot_2.jpeg)
 
-![Step 11](./screenshot/screenshot_18.jpeg)
+![Step 11](./screenshots/screenshot_18.jpeg)
 
-![Step 12](./screenshot/screenshot_13.jpeg)
+![Step 12](./screenshots/screenshot_13.jpeg)
 
-![Step 13](./screenshot/screenshot_8.jpeg)
+![Step 13](./screenshots/screenshot_8.jpeg)
 
-![Step 14](./screenshot/screenshot_7.jpeg)
+![Step 14](./screenshots/screenshot_7.jpeg)
 
-![Step 15](./screenshot/screenshot_3.jpeg)
+![Step 15](./screenshots/screenshot_3.jpeg)
 
-![Step 16](./screenshot/screenshot_15.jpeg)
+![Step 16](./screenshots/screenshot_15.jpeg)
 
-![Step 17](./screenshot/screenshot_9.jpeg)
+![Step 17](./screenshots/screenshot_9.jpeg)
 
-![Step 18](./screenshot/screenshot_4.jpeg)
+![Step 18](./screenshots/screenshot_4.jpeg)
 
 
 ---
