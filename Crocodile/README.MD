@@ -145,6 +145,12 @@ After login:
 
 ---
 
+## Screenshots
+
+![Step 1](./screenshot/image1.png)
+
+---
+
 ## ⚠️ Key Findings
 
 ### 🔍 1. Hidden Endpoints
