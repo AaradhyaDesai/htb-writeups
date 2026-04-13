@@ -232,7 +232,7 @@ gobuster dir -u http://<target-ip>/ \
 
 ---
 
-## 🏁 Conclusion
+## Conclusion
 
 Crocodile teaches a fundamental concept in penetration testing:
 
