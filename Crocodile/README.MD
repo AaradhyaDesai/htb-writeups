@@ -1,7 +1,7 @@
 
-# 🐊 HTB: Crocodile — Writeup
+#  HTB: Crocodile — Writeup
 
-## 📌 Overview
+## Overview
 
 * **Machine Name:** Crocodile
 * **Difficulty:** Easy
@@ -10,7 +10,7 @@
 
 Crocodile is a beginner-friendly machine that focuses on **web enumeration, directory brute-forcing, and credential usage**. The key lesson here is understanding how **hidden endpoints and exposed files** can lead to authentication bypass or access.
 
-## 🧭 Attack Flow
+## Attack Flow
 
 ```
 1. Recon (Nmap Scan)
@@ -26,7 +26,7 @@ Crocodile is a beginner-friendly machine that focuses on **web enumeration, dire
 6. Gain Access
 ```
 
-## ⚙️ Tools Used
+## Tools Used
 
 * `nmap`
 * `gobuster`
@@ -35,7 +35,7 @@ Crocodile is a beginner-friendly machine that focuses on **web enumeration, dire
 
 ---
 
-## 🧠 MITRE ATT&CK Mapping
+## MITRE ATT&CK Mapping
 
 | Technique | Description                  |
 | --------- | ---------------------------- |
@@ -44,7 +44,7 @@ Crocodile is a beginner-friendly machine that focuses on **web enumeration, dire
 | T1078     | Valid Accounts               |
 
 ---
-## 🧠 Skills Learned
+## Skills Learned
 
 * Directory brute-forcing using Gobuster
 * Identifying hidden login endpoints
@@ -55,7 +55,7 @@ Crocodile is a beginner-friendly machine that focuses on **web enumeration, dire
 ---
 ---
 
-## 🎯 Objective
+## Objective
 
 Gain access to the web application by discovering hidden resources and using provided credentials.
 
@@ -63,7 +63,7 @@ Gain access to the web application by discovering hidden resources and using pro
 
 ---
 
-## 🔍 Step 1: Enumeration (Nmap)
+## Step 1: Enumeration (Nmap)
 
 Start with a basic scan:
 
@@ -71,14 +71,14 @@ Start with a basic scan:
 nmap -sC -sV <target-ip>
 ```
 
-### 🔎 Findings:
+### Findings:
 
 * Port **80 (HTTP)** open
 * Web server hosting a simple webpage
 
 ---
 
-## 🌐 Step 2: Web Application Analysis
+## Step 2: Web Application Analysis
 
 Visit:
 
@@ -92,11 +92,11 @@ http://<target-ip>
 * No visible login form
 * No obvious attack surface
 
-👉 This is where beginners often get stuck — **no visible entry point**
+
 
 ---
 
-## 📂 Step 3: Directory Brute Forcing
+## Step 3: Directory Brute Forcing
 
 Since nothing is visible, we enumerate hidden directories:
 
@@ -104,13 +104,13 @@ Since nothing is visible, we enumerate hidden directories:
 gobuster dir -u http://<target-ip>/ -w /usr/share/wordlists/dirb/common.txt -x php
 ```
 
-### 🔑 Important Flag:
+### Important Flag:
 
 * `-x php` → tells Gobuster to search for `.php` files
 
 ---
 
-## 📁 Step 4: Key Discovery
+## Step 4: Key Discovery
 
 Gobuster reveals:
 
@@ -118,11 +118,11 @@ Gobuster reveals:
 /login.php
 ```
 
-💡 This is the **hidden authentication endpoint**
+-> This is the **hidden authentication endpoint**
 
 ---
 
-## 🔐 Step 5: Authentication
+##  Step 5: Authentication
 
 You were given credentials earlier in the lab.
 
@@ -136,7 +136,7 @@ Enter credentials → Login successful
 
 ---
 
-## 🚩 Step 6: Access Granted
+## Step 6: Access Granted
 
 After login:
 
@@ -147,18 +147,53 @@ After login:
 
 ## Screenshots
 
-![Step 1](./screenshot/image1.png)
+![Step 1](./screenshot/screenshot_16.jpeg)
+
+![Step 2](./screenshot/screenshot_12.jpeg)
+
+![Step 3](./screenshot/screenshot_10.jpeg)
+
+![Step 4](./screenshot/screenshot_5.jpeg)
+
+![Step 5](./screenshot/screenshot_1.jpeg)
+
+![Step 6](./screenshot/screenshot_17.jpeg)
+
+![Step 7](./screenshot/screenshot_14.jpeg)
+
+![Step 8](./screenshot/screenshot_11.jpeg)
+
+![Step 9](./screenshot/screenshot_6.jpeg)
+
+![Step 10](./screenshot/screenshot_2.jpeg)
+
+![Step 11](./screenshot/screenshot_18.jpeg)
+
+![Step 12](./screenshot/screenshot_13.jpeg)
+
+![Step 13](./screenshot/screenshot_8.jpeg)
+
+![Step 14](./screenshot/screenshot_7.jpeg)
+
+![Step 15](./screenshot/screenshot_3.jpeg)
+
+![Step 16](./screenshot/screenshot_15.jpeg)
+
+![Step 17](./screenshot/screenshot_9.jpeg)
+
+![Step 18](./screenshot/screenshot_4.jpeg)
+
 
 ---
 
-## ⚠️ Key Findings
+## Key Findings
 
-### 🔍 1. Hidden Endpoints
+### 1. Hidden Endpoints
 
 * Login page was not linked anywhere
 * Only discoverable via brute force
 
-### 🔍 2. Importance of File Extensions
+### 2. Importance of File Extensions
 
 * Without `-x php`, Gobuster might miss:
 
@@ -166,14 +201,14 @@ After login:
   login.php
   ```
 
-### 🔍 3. Credential Usage
+### 3. Credential Usage
 
 * Having credentials is useless without knowing **where to use them**
 
 ---
 
 
-## 🧪 Commands Summary
+## Commands Summary
 
 ```bash
 # Nmap Scan
@@ -188,7 +223,7 @@ gobuster dir -u http://<target-ip>/ \
 ---
 
 
-## 💡 Lessons Learned
+## Lessons Learned
 
 * Always perform **directory enumeration**, even if the site looks simple
 * Hidden endpoints are very common in real-world applications
